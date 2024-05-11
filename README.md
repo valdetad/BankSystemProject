@@ -15,16 +15,13 @@ ITransaction: Interface for representing transactions.
 
 # Services Layer
 The Services layer contains the core implementation of the banking system, including classes for accounts, banks, transactions, and storage management.
-
 Account
 Represents a bank account, providing methods for depositing, withdrawing, and retrieving account information.
-
 Bank
 Represents a bank entity, managing accounts and facilitating transactions. It calculates transaction fees and tracks transaction statistics.
 
 BankSystemStorage
 Manages storage and retrieval of account, bank, and transaction data. Implements the IBankSystemStorage interface.
-
 Transaction
 Represents a financial transaction between bank accounts, storing details such as amount, source, and destination accounts.
 
