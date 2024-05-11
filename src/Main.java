@@ -12,8 +12,6 @@ public class Main {
     public Main() {
         this.scanner = new Scanner(System.in);
         this.bankSystem = new BankSystemStorage();
-
-
     }
 
     public void start() {
